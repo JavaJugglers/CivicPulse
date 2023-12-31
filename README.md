@@ -1,11 +1,5 @@
 # CivicPulse
 
-Creating a comprehensive README file for the ActionMap application as described requires careful documentation of its features, setup instructions, and contribution guidelines. The README should be clear, informative, and structured to guide users and developers through the application. Here's a template for the README:
-
----
-
-# ActionMap
-
 ## Overview
 ActionMap is an integrated, user-friendly platform designed to connect voters with the progressive community. It facilitates engagement between voters, progressive organizations, candidates, and elected leaders. The application enables users to visualize the political environment at all government levels, attend community events, share news articles, and voice opinions to decision-makers in politics.
 
@@ -72,7 +66,3 @@ Contributions to ActionMap are welcome. Please follow these steps:
 
 ## License
 [MIT License](LICENSE.txt)
-
----
-
-This template provides a solid foundation for your README, explaining the key aspects of ActionMap. You can modify it to include any additional details specific to your project.
