@@ -1,7 +1,7 @@
 # CivicPulse
 
 ## Overview
-ActionMap is an integrated, user-friendly platform designed to connect voters with the progressive community. It facilitates engagement between voters, progressive organizations, candidates, and elected leaders. The application enables users to visualize the political environment at all government levels, attend community events, share news articles, and voice opinions to decision-makers in politics.
+CivicPulse is an integrated, user-friendly platform designed to connect voters with the progressive community. It facilitates engagement between voters, progressive organizations, candidates, and elected leaders. The application enables users to visualize the political environment at all government levels, attend community events, share news articles, and voice opinions to decision-makers in politics.
 
 ## Features
 - **Interactive Maps**: Visualize political landscapes using maps rendered with JavaScript and Topojson.
@@ -46,7 +46,7 @@ Open `localhost:3000` in your browser to view the application.
 - **Event Participation**: Browse and attend local political events.
 
 ## Contributing
-Contributions to ActionMap are welcome. Please follow these steps:
+Contributions to CivicPulse are welcome. Please follow these steps:
 1. **Fork the repository**
 2. **Create your feature branch** (`git checkout -b feature/AmazingFeature`)
 3. **Commit your changes** (`git commit -am 'Add some AmazingFeature'`)
