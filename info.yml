@@ -1,0 +1,26 @@
+project:
+  name: 'su23-chips10.5'
+  owner: 'CS169A-23'
+  teamId: '37'
+  identities:
+    github:
+      url: 'https://github.com/cs169/su23-chips10.5-37.git'
+  notifications:
+    slack_enc: U2FsdGVkX18tq2eCT4KLUc3aDLge5i1wiWshhXol4J/B9FS8a3ULt3kaAinOVnWI1MJIdr5lb3N/gV1M/kddnYUSEc1l0J5ILCjZFL+jsfjGtsAZfk8hntFoM2ejiZ+3
+  members:
+    member1:
+      name: 'Owen'
+      surname: 'Ong '
+      githubUsername: 'chic-choc'
+    member2:
+      name: 'Sarkis'
+      surname: 'Chrikjian'
+      githubUsername: 'Sarkis8'
+    member3:
+      name: 'Ash '
+      surname: 'Kuhlmann'
+      githubUsername: 'AshKuhlmann'
+    member4:
+      name: 'Daniel'
+      surname: 'Huang'
+      githubUsername: 'SuperOrcaDeluxe'
