@@ -1,0 +1,27 @@
+<%= form_with url: representative_make_my_news_item_path, method: :get do %>
+
+  <h2>Select a News Article</h2>
+  <% @articles.each_with_index do |article, index| %>
+    <div class="article">
+      <div class="form-check">
+        <%= radio_button_tag 'selected_article', index, false,
+        class: 'form-check-input' %>
+        <label class="form-check-label" for="selected_article">
+          <strong><%= link_to article[:title], article[:link] %></strong>
+          <p><%= article[:description] %></p>
+        </label>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= label_tag :rating, "Rate the article" %>
+    <%= select_tag :rating, options_for_select((1..5).to_a),
+    class: 'form-control' %>
+  </div>
+
+  <%= hidden_field_tag :representative_id, params[:rep_id] %>
+  <%= hidden_field_tag :issue, params[:issue] %>
+  <%= submit_tag "Save", class: 'btn btn-primary' %>
+
+<% end %>

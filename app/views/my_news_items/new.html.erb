@@ -1,0 +1,17 @@
+<%= form_with url: representative_select_my_news_item_path, method: :get do %>
+
+  <div class="form-group">
+    <%= label_tag :rep_id, "Choose a Representative" %>
+    <%= select_tag :rep_id,
+    options_from_collection_for_select(@representatives_list, "second", "first"),
+class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= label_tag :issue, "Select an Issue" %>
+    <%= select_tag :issue, options_for_select(NewsItem.issues),
+class: 'form-control' %>
+</div>
+  <%= submit_tag "Search", class: 'btn btn-primary' %>
+
+<% end %>
